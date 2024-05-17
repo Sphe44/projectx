@@ -1,0 +1,797 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:41:44] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:01] "POST /quote HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:10] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:10] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:10] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:10] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:10] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:11] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "POST /pricing HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:17] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:19] "GET /pric HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:19] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:19] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:19] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:19] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:20] "[36mGET /static/img/mastercard.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:20] "[36mGET /static/img/visa.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "GET /pric?idNumber=1234567890123&cardNumber=1234567890123456&expirationMonth=11&expirationYear=2025&cvv=123 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "[36mGET /static/img/visa.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "[36mGET /static/img/mastercard.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:42:46] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:21] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:22] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:22] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:56:22] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 57, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-42014f563adsm185369315e9.38 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:57:18] "[35m[1mPOST /quote HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:57:18] "GET /quote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:57:18] "GET /quote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:57:18] "GET /quote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:03] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 62, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3502b8a7748sm21254635f8f.49 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:22] "[35m[1mPOST /quote HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:22] "[36mGET /quote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:22] "[36mGET /quote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 10:59:22] "[36mGET /quote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:37] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 62, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3502baad0casm21418871f8f.86 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:51] "[35m[1mPOST /quote HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:51] "[36mGET /quote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:51] "[36mGET /quote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:00:51] "[36mGET /quote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:10] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:11] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:11] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:11] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:12] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:12] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:12] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 62, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4202d81104esm41204505e9.16 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:34] "[35m[1mPOST /quote HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:34] "[36mGET /quote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:34] "[36mGET /quote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:13:34] "[36mGET /quote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:21] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 62, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3502b896aa5sm21076667f8f.34 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:36] "[35m[1mPOST /quote HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:36] "[36mGET /quote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:36] "[36mGET /quote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:15:36] "[36mGET /quote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zoey\\OneDrive\\Pictures\\KanyPyt\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:28] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 63, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3502b89583dsm21263806f8f.33 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:45] "[32mPOST /quote HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:45] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:45] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:45] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 11:18:46] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/logo.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/twitter.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/youtube.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/picx%20(3).jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/facebook.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/this%20(1).jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/linkedin.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/star.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/this%20(2).jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/service.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:17] "GET /static/img/candle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "GET /static/img/coffin.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "GET /static/img/funeral%20(1).png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "GET /static/img/sbo.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "GET /static/img/louis.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "GET /static/img/ndu.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "GET /static/img/skype.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:10:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:28] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "POST /pricing HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:37] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "GET /pric HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "GET /static/img/mastercard.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:31:38] "GET /static/img/visa.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "GET /pric?idNumber=0105086346084&cardNumber=5284973334339375&expirationMonth=06&expirationYear=2028&cvv=868 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "[36mGET /static/img/mastercard.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:33:48] "[36mGET /static/img/visa.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:43] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 63, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-a5a1781d2dcsm1119384466b.44 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[32mPOST /quote HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:43:59] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 63, in process_contact_form
+    mail.send(msg)
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Zoey\OneDrive\Pictures\KanyPyt\.venv\Lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5750d24c8c1sm2096220a12.72 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[32mPOST /quote HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:21] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:22] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:22] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:22] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:22] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:22] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:44:22] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zoey\\OneDrive\\Pictures\\KanyPyt\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:39] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:48:54] "POST /quote HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 15:49:04] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:23] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:05:24] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 76, in process_contact_form
+    c.execute("INSERT INTO contacts (name, phone, service, details) VALUES (?, ?, ?, ?)",
+sqlite3.IntegrityError: NOT NULL constraint failed: contacts.email
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[32mPOST /quote HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:06:16] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:23] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 76, in process_contact_form
+    c.execute("INSERT INTO contacts (name, phone, service, details) VALUES (?, ?, ?, ?)",
+sqlite3.IntegrityError: NOT NULL constraint failed: contacts.email
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[32mPOST /quote HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:14:35] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:21] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+ERROR:root:Error occurred while processing contact form submission:
+Traceback (most recent call last):
+  File "C:\Users\Zoey\OneDrive\Pictures\KanyPyt\app.py", line 76, in process_contact_form
+    c.execute("INSERT INTO contacts (name, phone, service, details) VALUES (?, ?, ?, ?)",
+sqlite3.IntegrityError: NOT NULL constraint failed: contacts.email
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[32mPOST /quote HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/logo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/facebook.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/twitter.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/youtube.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/picx%20(3).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/this%20(1).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/this%20(2).jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/linkedin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/star.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/service.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/candle.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/coffin.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/funeral%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/sbo.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/louis.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/ndu.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[33mGET /img/client-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[33mGET /img/top.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2024 16:15:33] "[36mGET /static/img/skype.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zoey\\OneDrive\\Pictures\\KanyPyt\\app.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-647-930
